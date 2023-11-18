@@ -48,7 +48,8 @@ This module comes in 4 modular pieces:
 
 The parent component that renders the ```ICWalletList.tsx``` component requires two props when calling to render.
 
-Prop 1 - Canister whitelist made up of an array of canister IDs as strings.
+Prop 1 - Canister whitelist made up of an array of canister IDs as strings. This should be populated with the canister
+addresses of any canisters you wish to make calls to with the user's wallet.
 
 ```ts
 const whitelist = Array<string>
